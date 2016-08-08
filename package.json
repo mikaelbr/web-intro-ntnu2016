@@ -1,7 +1,7 @@
 {
-  "name": "web-intro-ntnu2015",
+  "name": "web-intro-ntnu2016",
   "version": "1.0.0",
-  "description": "Slides Web Intro Preentation NTNU 2015",
+  "description": "Slides Web Intro Preentation NTNU 2016",
   "main": "index.html",
   "dependencies": {
     "remark-bekk": "bekk/remark"
@@ -23,6 +23,6 @@
       "brfs"
     ]
   },
-  "author": "Mikael Brevik",
+  "author": "Mikael Brevik <mikael.brevik@bekk.no>",
   "license": "MIT"
 }
