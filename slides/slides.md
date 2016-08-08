@@ -5,7 +5,7 @@ class: front-page
 
 Mikael Brevik
 
-19/08/2015
+24/08/2016
 
 ---
 class: agenda
@@ -28,12 +28,10 @@ class: agenda
 * Web and Beyond
 
 ---
-class: middle center
+background-image: url(assets/timetravel.jpg)
+class: cover middle center
 
-# Historisk Web
-
----
-background-image: url(assets/stevebuschemi.gif)
+# Historiske Web
 
 ---
 class: middle center
@@ -357,59 +355,6 @@ http://www.yr.no/sted/Norway/S%C3%B8r-Tr%C3%B8ndelag/Trondheim/Trondheim/varsel.
 ???
 
 Så om du åpner en nettside, vil nettleseren gå å hente ut innholdet til den nettsiden, og du vil få tilbake et format som nettleseren kan vise med et tilhørende design (kalt HTML og CSS). For apps, vil appen hente ut et innhold og få tilbake et format som kan konsumeres enkelt for den, f.eks JSON eller XML.
-
----
-background-image: url(assets/facebook-app.png)
-
-???
-
-Det samme skjer når man f.eks trykker "Like" på Facebook App-en. Facebook går i bakrunnen og åpner en side, som gjør den handlingen man ønsker.
-
-
----
-
-```
-http://api.facebook.com/actions/do-like/01307572/some-post
-```
-
-```json
-{
-  "success": true,
-  "likes": 56,
-  "youLiked": true
-}
-```
-
-???
-
-Vi kan forestille oss at den ser ut som noe slik, for eksempel.
-
----
-class: middle center
-
-![Fun Run](assets/funrun.jpg)
-
-???
-
-Samme da med fun run. Bare at man kan tenke seg at man sender litt andre ting. F.eks kan det være at den kontinuerlig sender sin posisjon til en server som igjen sprer den videre til alle andre mobil-telefoner som er med i spillet.
-
----
-
-# Request
-
-```
-POST http://api.some-funrun-page.com/coordinates/game-id/12f938abc321adf
-```
-
-## Body
-```json
-{ "x": 1205, "y": 300 }
-```
-
-# Response
-```json
-{ "message": "ok" }
-```
 
 
 ---
@@ -759,24 +704,13 @@ class: cover
 
 <a href="http://helloracer.com/racer-s/" class="btn" target="_blank" id="sound-button">Kjør demo</a>
 
+---
+
+<iframe width="1024" height="600" src="https://www.youtube.com/embed/CvxeobtZiWY" frameborder="0" allowfullscreen></iframe>
 
 ---
-background-image: url(assets/gotham.png)
-class: cover
 
-# Witness Gotham: WebGL
-
-<a href="http://witnessgotham.com//" class="btn" target="_blank" id="sound-button">Kjør demo</a>
-
-
----
-background-image: url(assets/music.png)
-class: cover
-
-# Technitone: Web Audio API
-
-<a href="http://www.technitone.com/gallery/recent" class="btn" target="_blank" id="sound-button">Kjør demo</a>
-
+<iframe width="1024" height="600" src="https://www.youtube.com/embed/cqtBpCqgOgM?start=1197&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ---
 background-image: url(assets/quake.png)
