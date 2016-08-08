@@ -1,4 +1,5 @@
 var fs = require('fs');
+var gest = require('./gest');
 
 setupSlideshow();
 setupSoundButton();
@@ -15,6 +16,23 @@ myImage2.addEventListener('click', function (e) {
   myImage2.src = 'assets/dance.gif';
 });
 
+var isStarted = false;
+document.querySelector('#gest-button').addEventListener('click', function (e) {
+  if (isStarted) {
+    gest.stop();
+    isStarted = false;
+  } else {
+    gest.start();
+    isStarted = true;
+  }
+}, false);
+
+var isDebug = false;
+document.querySelector('#gest-button-debug').addEventListener('click', function (e) {
+  isDebug = !isDebug;
+  gest.options.debug(isDebug);
+}, false);
+
 
 function setupSlideshow () {
   var data = fs.readFileSync(__dirname + '/../slides/slides.md', 'utf8');
@@ -24,6 +42,15 @@ function setupSlideshow () {
     ratio: '16:9',
     highlightStyle: 'monokai'
   });
+
+  document.addEventListener('gest', function(gesture) {
+    //handle gesture .direction .up .down .left .right .error
+    if (gesture.left) {
+      slideshow.gotoPreviousSlide();
+    } else if (gesture.right) {
+      slideshow.gotoNextSlide();
+    }
+  }, false);
 }
 
 function setupSoundButton () {

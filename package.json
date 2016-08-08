@@ -10,9 +10,11 @@
   "devDependencies": {
     "brfs": "^1.4.1",
     "browserify": "^11.0.1",
+    "st": "^1.2.0",
     "watch": "^0.16.0"
   },
   "scripts": {
+    "start": "st --index index.html --no-cache -l",
     "build": "browserify src/app.js -o dist/build.js",
     "watch": "watch 'npm run build' ./slides ./src"
   },

@@ -248,7 +248,7 @@ curl -v http://www.vg.no
 < HTTP/1.1 200 OK
 < Server: Apache/2.2.15 (CentOS)
 < X-VG-WebServer: vgphoenix-web-03
-< Last-Modified: Sun, 16 Aug 2015 19:15:45 GMT
+< Last-Modified: Sun, 16 Aug 2016 19:15:45 GMT
 < Content-Type: text/html; charset=UTF-8
 < X-VG-SolveMe: uggc://jjj.it.ab/ynxfrgngg.ugzy
 < Cache-Control: max-age=30,must-revalidate
@@ -348,7 +348,7 @@ http://www.yr.no/sted/Norway/S%C3%B8r-Tr%C3%B8ndelag/Trondheim/Trondheim/varsel.
   <forecast>
     <text>
       <location name="Trondheim">
-        <time from="2015-08-16" to="2015-08-16">
+        <time from="2016-08-16" to="2016-08-16">
           <title>søndag</title>
           <body>&lt;strong&gt;Trøndelag:&lt;/strong&gt; Søraust bris, frisk bris utsatte steder. Pent vær.</body>
         </time>
@@ -486,7 +486,7 @@ _Markup: Et språk for å definere hvordan vi vil at strukturen på en nettside 
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Web Intro 2015</title>
+    <title>Web Intro 2016</title>
   </head>
   <body>
     <h1>Min sidetittel</h1>
@@ -742,6 +742,16 @@ class: middle center
 * JavaScript – Oppførsel
 
 ---
+
+# Kamera-iteraksjon
+
+<button class="btn" target="_blank" id="gest-button">Toggle demo</button>
+
+<button class="btn" target="_blank" id="gest-button-debug">Show debug</button>
+
+<div id="cam-debug"></div>
+
+---
 background-image: url(assets/racing.png)
 class: cover
 
@@ -793,4 +803,4 @@ class: front-page
 
 ## mikael.brevik@bekk.no – @mikaelbrevik
 
-Slides: http://github.com/mikaelbr/web-intro-ntnu2015
+Slides: http://github.com/mikaelbr/web-intro-ntnu2016
