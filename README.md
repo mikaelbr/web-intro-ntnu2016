@@ -19,4 +19,4 @@ web-teknologier.
 * Web and Beyond
 
 
-[Live slides her](http://git.mikaelb.net/web-intro-ntnu2015/) | [Slides i Markdown her](./slides/slides.md)
+[Live slides her](http://git.mikaelb.net/web-intro-ntnu2016/) | [Slides i Markdown her](./slides/slides.md)
