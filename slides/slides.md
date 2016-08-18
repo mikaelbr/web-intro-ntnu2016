@@ -261,7 +261,7 @@ curl -v http://www.vg.no
 ```
 
 ---
-background-image: url(assets/carusel.gif)
+background-image: url(assets/bendik.gif)
 class: middle center
 
 ???
