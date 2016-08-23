@@ -8,6 +8,15 @@ Mikael Brevik
 24/08/2016
 
 ---
+class: middle center
+
+<img src="assets/mikael.png" height="400px" alt="Mikael Brevik" />
+
+## Twitter: @mikaelbrevik
+
+## E-post: mikael.brevik@bekk.no
+
+---
 class: agenda
 
 # Del 1: Grunnleggende Interaksjon
@@ -117,7 +126,9 @@ background-image: url(assets/first-facebook.png)
 
 ???
 
-På samme tiden, rundt 2004, kom det en ganske kjent side for mange. Riktig nok, så ble den først den Facebook vi kjenner i dag rundt 2008. Da kom det et stort re-design og den fikk flesteparten av de featurene vi ser. I Norge hadde vi først noen andre sider som løste mye av de samme "behovene".
+På samme tiden, rundt 2004, kom det en ganske kjent side for mange. Riktig nok, så ble den først den Facebook vi kjenner i dag rundt 2008. Da kom det et stort re-design og den fikk flesteparten av de featurene vi ser. Siden, slik vi kjenner den i dag, har over 1.13 milliarder mennesker som logger på hver dag. I en spørreundersøkelse i Indonesia, ble det spurt om hvor mange som brukte Internett. Kun rundt 14% sa de var på internett, men nesten 30 % sa de var på Facebook. Faktisk så sier 65% av folk i Indonesia at Facebook *er* internett.
+
+I Norge hadde vi først noen andre sider som løste mye av de samme "behovene".
 
 ---
 background-image: url(assets/blink.png)
@@ -157,7 +168,7 @@ background-image: url(assets/second-youtube.png)
 
 ???
 
-En side der hvor alle kan dele alle slags videoer.
+En side der hvor alle kan dele alle slags videoer. Nå er det rundt 4 milliarder videoer sett hver dag. Det er i snitt 6 milliarder timer per måned. Runt 300 timer i minuttet lastet opp.
 
 ---
 background-image: url(assets/first-iphone.jpg)
@@ -356,31 +367,15 @@ http://www.yr.no/sted/Norway/S%C3%B8r-Tr%C3%B8ndelag/Trondheim/Trondheim/varsel.
 
 Så om du åpner en nettside, vil nettleseren gå å hente ut innholdet til den nettsiden, og du vil få tilbake et format som nettleseren kan vise med et tilhørende design (kalt HTML og CSS). For apps, vil appen hente ut et innhold og få tilbake et format som kan konsumeres enkelt for den, f.eks JSON eller XML.
 
-
----
-class: middle center
-
-# Pause
-
 ---
 
 # Re-cap: Del 1
-
 
  * Web baserer seg på HTTP
  * Fungerer som Request og Response
  * Kan vise forskjellige typer innhold (tekst, bilder, data-format etc)
  * Kommunikasjon i apper er og ofte basert på Web-teknologi.
 
----
-class: middle center
-
-
-![Request/Response](assets/request-response.png)
-
-???
-
-Nettleseren sender en spørring inn til en tjener ved å slå opp i et register for å endre fra domene til en adresse (IP). Så får man svar med tjeneren om man finner et innhold eller ikke. Dersom innholdet finnes kommer innholdet også.
 
 ---
 
