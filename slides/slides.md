@@ -8,15 +8,6 @@ Mikael Brevik
 24/08/2016
 
 ---
-class: middle center
-
-<img src="assets/mikael.png" height="400px" alt="Mikael Brevik" />
-
-## Twitter: @mikaelbrevik
-
-## E-post: mikael.brevik@bekk.no
-
----
 class: agenda
 
 # Del 1: Grunnleggende Interaksjon
@@ -40,7 +31,14 @@ class: agenda
 background-image: url(assets/timetravel.jpg)
 class: cover middle center
 
-# Historiske Web
+---
+class: middle center
+
+<img src="assets/mikael.png" height="400px" alt="Mikael Brevik" />
+
+???
+
+Vi reiser tilbake i tid til da jeg så +/- slik ut. Nærmere bestemt for 25 år siden da web-en først kom. Ikke sikkert mange tenker over det, men Internett og Web er to forskjellige ting. Internett hadde eksistert i flere år alt, via ting som e-post, usenets, ftp, etc, men det var ikke noe koblede nettsider osv. Web-en ble konseptualisert i 89 men lansert i slutten av 90 og rullet ut i Norge i ca 91. Ble erklært fritt og åpent av CERN i 93 og i 94 ble det tilgjengelig for alle.
 
 ---
 class: middle center
@@ -58,7 +56,7 @@ background-image: url(assets/ie20years.jpg)
 
 ???
 
-Her er et bilde av Internet Explorer 1 i Windows 95, som er 20 år nå!
+Her er et bilde av Internet Explorer 1 i Windows 95! Dette var ikke den første nettleseren på noe måte. Første var Mosaic i 93, men Internet Explorer er litt mer for de fleste kjent i dag.
 
 ---
 background-image: url(assets/apple-website.png)
@@ -480,7 +478,7 @@ article img {
 ```
 
 <img style="width: 350px; float: left;" src="./assets/kungfubaby.gif" alt="Kung Fu Baby" />
-<h1 style="font-size: 150%; color: #FF0000;">Min tittel</h1>
+<h1 style="font-size: 150%; color: #FF0000; display: block;">Min tittel</h1>
 
 ---
 
@@ -556,7 +554,7 @@ var number2 = add(add(20, 20), 2); //> 42
 ---
 # JavaScript
 
-Kan konstruere "objeker" som holder på informasjon:
+Kan konstruere "objekter" som holder på informasjon:
 
 ```js
 var myPoint = { x: 40, y: 2 };
